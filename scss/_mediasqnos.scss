@@ -1,0 +1,211 @@
+/* MEDIAS QUERIES 1 */
+
+
+@media (max-width: 1050px)  {
+
+    .logoBairesNav{
+        width:  161px;
+        height: 60px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .contenedorGralBogas { 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.7fr 0.7fr;
+        grid-auto-columns: 0.7fr;
+        gap: 2px 2px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "Abogada1 Abogada1 Abogada1 Abogada1"
+          "Abogado2 Abogado2 Abogado3 Abogado3";
+      }
+      
+      .Abogada1 { grid-area: Abogada1; }
+      
+      .Abogado2 { grid-area: Abogado2; }
+      
+      .Abogado3 { grid-area: Abogado3; }
+
+.contenedorGralBogas {
+    max-height: 1400px;
+}
+
+.Abogada1  {
+    flex-direction: column;
+    height: 100%;
+}
+.descBoga1 {
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.Abogada1 .FotoAbo1 img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+.FotoAbo1 {
+    width:90%;
+    height:90%;
+}
+.FotoAbo1 img {
+    object-fit: cover;
+}
+.descBoga1 p {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.Abogado2  {
+    height: 24rem;
+}
+.Abogado3  {
+    height: 24rem;
+}
+
+.contenedorCont {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.Contacto1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+    .contenedorCont {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .contenedorCont {
+        background-color: #121F3D;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    .ContenMenuDown li {
+        list-style: none;
+    }
+    
+    
+
+.ContenMenuDown {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center; 
+    margin-left: 2rem;   
+    margin-right: 3rem;
+}
+
+.Contacto1, .Contacto2, .Contacto3 {
+    margin: 15px auto;
+}
+}
+
+
+/* MEDIAS QUERIES 3 */
+
+
+
+@media (max-width: 830px)  {
+    .contenedorGralBogas { 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-auto-columns: 1fr;
+        gap: 2px 2px;
+        grid-auto-flow: row;
+        grid-template-areas:
+        "Abogada1 Abogada1 Abogada1 Abogada1"
+        "Abogado2"
+        "Abogado3";
+    }
+        .Abogada1 { grid-area: Abogada1; }
+    
+        .Abogado2 { grid-area: Abogado2; }
+    
+        .Abogado3 { grid-area: Abogado3; }
+
+    .contenedorGralBogas { 
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .contenedorGralBogas {
+        max-height: 1800px;
+    }
+
+
+    .lineaAzul {
+        width: 100%;
+        height: 45px;
+        flex-wrap:nowrap;
+        justify-content: center;
+    }
+
+    .menu {
+        font-size: 0.8rem;
+        }
+
+    .logo{
+        width:  161px;
+        height: 60px;
+        display: flex;
+        justify-items: center;
+        margin: auto;
+    }
+
+    .lineaAzul .Seccion h4{
+        display: none;
+        }
+
+
+    .Abogada1 {
+        width: 90%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .descBoga1 p {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    
+    .Abogado2 {
+        width: 90%;
+        height: 350px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    .Abogado3 {
+        width: 90%;
+        height: 350px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+}
